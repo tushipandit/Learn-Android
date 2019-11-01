@@ -51,7 +51,15 @@ public class Listfrag extends Fragment {
         recyclerView.setLayoutManager(layoutManager);
 
         myadapter=new personadapter(this.getActivity(),Applicationclass.people);
+
         recyclerView.setAdapter(myadapter);
 
+    }
+
+
+
+    public void notifydatachange(){
+
+        myadapter.notifyDataSetChanged();
     }
 }

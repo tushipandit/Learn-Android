@@ -41,7 +41,7 @@ public class personadapter extends RecyclerView.Adapter<personadapter.ViewHolder
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    activity.onitemclick(people.indexOf((person) view.getTag()));
+                    activity.onitemclick(people.indexOf((person)view.getTag()));
                 }
             });
 
@@ -61,6 +61,7 @@ public class personadapter extends RecyclerView.Adapter<personadapter.ViewHolder
     public void onBindViewHolder(@NonNull personadapter.ViewHolder holder, int position) {
         holder.itemView.setTag(people.get(position));
         holder.tvname.setText(people.get(position).getName());
+
 
     }
 

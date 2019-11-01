@@ -8,8 +8,11 @@ public class Applicationclass extends Application
 {
 
     public static ArrayList<person> people;
+
+
     @Override
-    public void onCreate() {
+    public void onCreate()
+    {
         super.onCreate();
 
         people = new ArrayList<person>();
