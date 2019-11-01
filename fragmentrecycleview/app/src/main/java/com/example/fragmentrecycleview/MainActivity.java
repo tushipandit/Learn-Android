@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements personadapter.itemclicked{
 
     TextView tvname , tvtel;
     EditText etname ,ettel;
@@ -32,6 +32,13 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+    }
+
+    @Override
+    public void onitemclick(int index) {
+            tvname.setText(Applicationclass.people.get(index).getName());
+            tvtel.setText(Applicationclass.people.get(index).getTelno());
 
     }
 }
