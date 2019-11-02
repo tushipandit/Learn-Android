@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -15,7 +16,7 @@ public class personadapter extends RecyclerView.Adapter<personadapter.ViewHolder
 
     itemclicked activity;
 
-    public ArrayList<person> people;
+    private ArrayList<person> people;
 
 
     public interface itemclicked{
@@ -25,8 +26,8 @@ public class personadapter extends RecyclerView.Adapter<personadapter.ViewHolder
 
     public personadapter(Context context , ArrayList<person> list){
 
-        people = list;
-        activity=(itemclicked)context;
+        this.people = list;
+        this.activity=(itemclicked)context;
 
     }
 
@@ -37,7 +38,7 @@ public class personadapter extends RecyclerView.Adapter<personadapter.ViewHolder
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            tvname=itemView.findViewById(R.id.tvname);
+            tvname=itemView.findViewById(R.id.textView);
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -59,8 +60,10 @@ public class personadapter extends RecyclerView.Adapter<personadapter.ViewHolder
 
     @Override
     public void onBindViewHolder(@NonNull personadapter.ViewHolder holder, int position) {
+  person p=people.get(position);
         holder.itemView.setTag(people.get(position));
-        holder.tvname.setText(people.get(position).getName());
+
+        holder.tvname.setText(p.getName());
 
 
     }

@@ -5,6 +5,10 @@ public class person {
     private String name;
     private String telno;
 
+     public person()
+     {
+
+     }
     public person(String name, String telno) {
         this.name = name;
         this.telno = telno;
@@ -25,4 +29,5 @@ public class person {
     public void setTelno(String telno) {
         this.telno = telno;
     }
+
 }
