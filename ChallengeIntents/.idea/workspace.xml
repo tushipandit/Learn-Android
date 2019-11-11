@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2ebde84-59cf-463e-a033-1d5b225316a9" name="Default Changelist" comment="" />
+    <list default="true" id="f2ebde84-59cf-463e-a033-1d5b225316a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../recyclerviewworking/app/src/main/java/com/example/recyclerviewworking/addingevent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recyclerviewworking/app/src/main/res/layout/activity_addingevent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TempConvert" beforeDir="false" afterPath="$PROJECT_DIR$/../TempConvert" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fragmentrecycleview/app/src/main/java/com/example/fragmentrecycleview/Addpersonfrag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fragmentrecycleview/app/src/main/java/com/example/fragmentrecycleview/Applicationclass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fragmentrecycleview/app/src/main/java/com/example/fragmentrecycleview/person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fragmentrecycleview/app/src/main/java/com/example/fragmentrecycleview/personadapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fragmentrecycleview/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fragmentrecycleview/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fragmentrecycleview/app/src/main/res/layout/fragment_addpersonfrag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fragmentrecycleview/app/src/main/res/layout/fragment_addpersonfrag.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fragmentrecycleview/app/src/main/res/layout/row_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recyclerviewworking/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../recyclerviewworking/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recyclerviewworking/app/src/main/java/com/example/recyclerviewworking/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../recyclerviewworking/app/src/main/java/com/example/recyclerviewworking/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recyclerviewworking/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../recyclerviewworking/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,8 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="ZF6223NRPK" />
   <component name="ExternalProjectsManager">
@@ -20,24 +34,29 @@
       </state>
     </system>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="744" />
     <option name="y" value="27" />
     <option name="width" value="622" />
     <option name="height" value="741" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="ProjectPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -131,29 +150,29 @@
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.1500732" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info id="Build Variants" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="Resources Explorer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run" />
-      <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Android Profiler" />
-      <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.32857144" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14984709" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Run" order="0" />
+      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
     </layout>
   </component>
 </project>

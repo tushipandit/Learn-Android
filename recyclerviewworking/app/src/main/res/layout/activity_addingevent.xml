@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".addingevent">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Enter the Event  to Schedule"
+       android:textStyle="bold"
+       android:textSize="60dp"
+       android:gravity="center"
+       ></TextView>
+
+    <EditText
+        android:id="@+id/etdesc"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Enter the Work description"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/etdate"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:inputType="date"
+        android:hint="Enter the submission date"
+        ></EditText>
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        ></Button>
+
+</LinearLayout>

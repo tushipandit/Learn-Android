@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -12,6 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.jar.Attributes;
 
 public class MainActivity extends AppCompatActivity implements person_adapter.itemclicked {
 
@@ -20,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements person_adapter.it
     RecyclerView.LayoutManager layoutManager;
 
     ArrayList<person> people;
-    Button btnadd;
+    Button btnadd , btnsch;
 
 
 
@@ -37,44 +39,27 @@ public class MainActivity extends AppCompatActivity implements person_adapter.it
         btnadd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                people.add(new person("susan","verma","plane"));
-                myAdapter.notifyDataSetChanged();//notify the change
+
+
+                people.add(new person("tushar ","sharma","plane"));
+                myAdapter.notifyDataSetChanged();
+
             }
         });
 
-        //layoutManager = new LinearLayoutManager(this);
-        //set layout horizontal scrolling
-        //layoutManager=new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL,false);
 
 
-        //set layout in the grids of rows 3
-        layoutManager = new GridLayoutManager(this,3,GridLayoutManager.HORIZONTAL,false);
-
-
+        layoutManager = new LinearLayoutManager(this);
 
         recyclerView.setLayoutManager(layoutManager);
 
         people = new ArrayList<person>();
-        people.add(new person("tushar","shamrma","bus"));
-        people.add(new person("vickey","verma","bus"));
-        people.add(new person("happy","sood","plane"));
-        people.add(new person("tushar","shamrma","bus"));
-        people.add(new person("bhola","verma","bus"));
-        people.add(new person("work","sood","plane"));
-
-
-
         myAdapter=new person_adapter(this , people);
         recyclerView.setAdapter(myAdapter);
-
-
-
-
-
+        people.add(new person("vinay","anand","bus"));
     }
-
     @Override
     public void onitemclicked(int index) {
-        Toast.makeText(this,"surname:"+people.get(index).getSurname(),Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"DESCRIPTION:"+people.get(index).getName(),Toast.LENGTH_SHORT).show();
     }
 }

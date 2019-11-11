@@ -81,6 +81,7 @@ public class person_adapter extends RecyclerView.Adapter<person_adapter.ViewHold
         holder.itemView.setTag(people.get(position));
 
         holder.tvName.setText(people.get(position).getName());
+
         holder.tvSurname.setText(people.get(position).getSurname());
 
         if (people.get(position).getPreferences().equals("bus")) {
@@ -91,6 +92,8 @@ public class person_adapter extends RecyclerView.Adapter<person_adapter.ViewHold
         {
             holder.ivpref.setImageResource(R.drawable.plane);
         }
+
+
 
 
     }

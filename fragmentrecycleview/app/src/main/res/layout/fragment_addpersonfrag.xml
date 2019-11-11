@@ -8,32 +8,36 @@
 
 
     <EditText
+
         android:id="@+id/etname"
+        android:layout_marginTop="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:gravity="center_horizontal"
         android:layout_gravity="center_horizontal"
         android:inputType="textPersonName"
-        android:hint="Enter persons name" />
+        android:hint="Enter Event Description" />
 
     <EditText
         android:id="@+id/ettel"
+        android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:gravity="center_horizontal"
         android:layout_gravity="center_horizontal"
-        android:inputType="phone"
-        android:hint="enter persons telephone number"
+        android:inputType="date"
+        android:hint="Enter Date To Submit"
         />
 
     <Button
         android:id="@+id/btnadd"
-        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:background="@color/colorPrimaryDark"
         android:textColor="#FFFFFF"
-        android:text="ADD Contact" />
+        android:text="SCHEDULE" />
 </LinearLayout>
